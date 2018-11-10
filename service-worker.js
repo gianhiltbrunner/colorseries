@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/protelescristata/colorseries/precache-manifest.112ad381b7d606a605f49c43c3bdf0e8.js"
+  "/colorseries/precache-manifest.d6d3204c01c345583eb7996517ef51c8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/protelescristata/colorseries/index.html", {
+workbox.routing.registerNavigationRoute("/colorseries/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
